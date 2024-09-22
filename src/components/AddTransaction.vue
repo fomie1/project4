@@ -23,16 +23,16 @@
 
 
 <template>
-    <h3>Add a new Transaction</h3>
+    <h3>Add a new Game</h3>
     <form id="form" @submit.prevent="onSubmit">
         <div class="form-control">
-            <label for="text">Enter Transaction</label>
-            <input type="text" id="text" v-model="text" placeholder="Enter Transaction...">
+            <label for="text">Enter Game Name</label>
+            <input type="text" id="text" v-model="text" placeholder="Cyberpunk 2077, Garry's Mod, Warhammer...">
         </div>
         <div class="form-control">
-            <label for="amount">Enter Transaction Amount</label>
-            <input type="text" id="amount" v-model="amount" placeholder="Enter Negative Value for Expenses">
+            <label for="amount">Enter Game Amount</label>
+            <input type="text" id="amount" v-model="amount" placeholder="Is it worth it tho? Enter Amount...">
         </div>
-        <button class="btn">Add Transaction</button>
+        <button class="btn">Add To Your Wishlist</button>
     </form>
 </template>

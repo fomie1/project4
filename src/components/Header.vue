@@ -7,7 +7,7 @@
 
 
 <template>
-    <h2>Expense Tracker 2024</h2>
+    <h2>Steam Wishlist Tracker</h2>
 
 
 
